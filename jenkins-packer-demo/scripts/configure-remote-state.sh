@@ -6,7 +6,7 @@ echo 'backend.tf
 ==========
 terraform {
   backend "s3" {
-    bucket = "terraform-state-ami123a"
+    bucket = "terraform-state-ami-001"
     key    = "terraform.tfstate"
     region = "eu-west-1"
   }
